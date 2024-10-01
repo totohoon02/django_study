@@ -42,3 +42,11 @@ TIME_ZONE = 'Asia/Seoul'
 python manage.py migrate
 python manage.py createsuperuser # /admin
 ```
+
+### Model
+- 데이터베이스의 스키마 정의
+- 데이터베이스를 적용시키는 과정을 마이그레이션
+```
+django-admin makemigrations
+django-admin migrate
+```
