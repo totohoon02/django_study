@@ -1,52 +1,29 @@
-# DJANGO REST FRAMEWORK
-
-### project setup
-
-```
-pip install django
-django-admin startproject myweb .
-python manage.py startapp photo
-
-# run
-python manage.py runserver
-```
-
-### settings.py
-
-```
-USER_APPS = [
-    'photo'
-]
-
-DJANGO_APPS = [
-    'django.contrib.admin',
-    'django.contrib.auth',
-    'django.contrib.contenttypes',
-    'django.contrib.sessions',
-    'django.contrib.messages',
-    'django.contrib.staticfiles',
-]
-
-INSTALLED_APPS = USER_APPS + DJANGO_APPS
-
-...
-
-LANGUAGE_CODE = 'ko-kr'
-
-TIME_ZONE = 'Asia/Seoul'
-```
-
-### migrate & create superuser
-
-```
-python manage.py migrate
-python manage.py createsuperuser # /admin
-```
+# Photo App
 
 ### Model
-- 데이터베이스의 스키마 정의
-- 데이터베이스를 적용시키는 과정을 마이그레이션
+
 ```
-django-admin makemigrations
-django-admin migrate
+class Photo(models.Model):
+    title = models.CharField(max_length=100)
+    author = models.CharField(max_length=100)
+    image = models.CharField(max_length=500)
+    description = models.TextField()
+    price = models.IntegerField()
+
 ```
+
+- admin.py에 등록한다.
+
+### MVT
+
+- Model
+  - 데이터베이스 스키마 정의
+  - ORM 모델 사용
+- View
+  - Template에 정보 제공
+  - 단순 렌더
+  - API로도 사용
+- Template
+  - 데이터를 받아서 화면 그리기
+- CRUD
+- Form

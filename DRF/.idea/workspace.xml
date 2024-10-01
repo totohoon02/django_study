@@ -4,27 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="338f3374-e911-4a05-8d15-4c3ec22fb427" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/photo/templates/photo/photo_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/photo/templates/photo/photo_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/photo/templates/photo/photo_post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DRF.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DRF.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myweb/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myweb/asgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myweb/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myweb/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myweb/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/photo/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/photo/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/photo/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/photo/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/photo/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/photo/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/photo/views.py" beforeDir="false" />
-    </list>
+    <list default="true" id="338f3374-e911-4a05-8d15-4c3ec22fb427" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -117,7 +97,7 @@
       <workItem from="1727385180769" duration="25000" />
       <workItem from="1727385211409" duration="1078000" />
       <workItem from="1727386639166" duration="2740000" />
-      <workItem from="1727767130393" duration="1487000" />
+      <workItem from="1727767130393" duration="1584000" />
     </task>
     <servers />
   </component>
