@@ -1,9 +1,7 @@
-from django.urls import path
+from rest_framework import routers
+from .views import BookViewSet
 
-from example.views import hello_api, books_api, BookAPI
+router = routers.SimpleRouter()
+router.register("books", BookViewSet)
 
-urlpatterns = [
-    path('hello/', hello_api),
-    path('fbv/books', books_api),
-    path('fbv/book/<int:bid>', BookAPI.as_view())
-]
+urlpatterns = router.urls
